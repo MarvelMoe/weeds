@@ -1,0 +1,33 @@
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+#title {
+    text-align: center;
+    position: relative;
+    bottom: 700px;
+    left: 300px
+}
+#button {
+    height: 100px;
+    width: 100%;
+    margin-left: 15px;
+    background-color: Transparent;
+    background-repeat: no-repeat;
+    border: none;
+    cursor: pointer;
+    overflow: hidden;
+    outline: none
+}
+#button:hover {
+    height: 107px
+}
+@media screen and (max-width: 1000px) {
+    #title {
+        left: 100px;
+        width: 70%
+    }
+   
+}
