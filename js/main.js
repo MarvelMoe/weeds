@@ -97,3 +97,27 @@ function colorMaker() {
 
 }
 canvas.addEventListener("click", colorMaker)
+
+
+$(document).ready(function() {
+     
+var canvas = document.getElementById("canvas")
+var context = canvas.getContext("2d")
+context.font = "20px ";
+
+    context.fillText("C", 0, 20);
+    context.fillText("L", 0, 40);
+    context.fillText("I", 0, 60);
+    context.fillText("C", 0, 80);
+    context.fillText("K", 0, 100);
+
+    context.fillText("S", 15, 10);
+    context.fillText("O", 15, 30);
+    context.fillText("M", 15, 50);
+    context.fillText("E", 15, 70);
+    context.fillText("W", 15, 90);
+    context.fillText("H", 15, 110);
+    context.fillText("E", 15, 130);
+    context.fillText("R", 15, 150);
+    context.fillText("E", 15, 170);
+});
